@@ -1,0 +1,58 @@
+[2026-04-30 14:28:41] ========================================
+[2026-04-30 14:28:41] 🚀 OpenClaw 初始化脚本启动 (v1.4.0)
+[2026-04-30 14:28:41] 📅 时间：Thu Apr 30 14:28:41 CST 2026
+[2026-04-30 14:28:41] 📂 日志文件：/home/sandbox/.openclaw/workspace/logs/init_20260430_142841.log
+[2026-04-30 14:28:41] ========================================
+[2026-04-30 14:28:41] 🔧 使用参数：
+[2026-04-30 14:28:41]   API Key: SK-EB5AE02...
+[2026-04-30 14:28:41]   User ID: 2850086000502191479
+[2026-04-30 14:28:41]   cVersion: latest
+[2026-04-30 14:28:41]   wsUrl1: wss://celia-claw-drcn.ai.dbankcloud.cn/openclaw/v1/xiaoyi/ws/link
+[2026-04-30 14:28:41]   wsUrl2: wss://celia-claw-drcn.ai.dbankcloud.cn/openclaw/v1/xiaoyi/ws/link
+[2026-04-30 14:28:41]   File Upload URL: https://celia-claw-drcn.ai.dbankcloud.cn
+[2026-04-30 14:28:41]   Base URL: https://celia-claw-drcn.ai.dbankcloud.cn/celia-claw/v1/sse-api
+[2026-04-30 14:28:41]   Model: LLM_DeepSeekV4_Thinking|false|text|0.001|0.002|0|0|256000|6000
+[2026-04-30 14:28:41] ========================================
+openclaw-gateway: stopped
+[2026-04-30 14:28:42] 📦 正在安装插件 @ynhcj/xiaoyi-channel@latest...
+[2026-04-30 14:29:15] ✅ 插件安装完成
+[2026-04-30 14:29:15] 🔑 正在创建安全密钥文件...
+[2026-04-30 14:29:15] ✅ 安全密钥文件创建完成
+[2026-04-30 14:29:15] ⚙️ 正在配置 Channel (xiaoyi-channel)...
+📖 已读取输出文件中的现有内容：/home/sandbox/.openclaw/openclaw.json
+✅ 配置已成功合并并写入：/home/sandbox/.openclaw/openclaw.json
+[2026-04-30 14:29:15] ✅ Channel 配置完成
+[2026-04-30 14:29:15] 🤖 正在配置模型...
+Config overwrite: /home/sandbox/.openclaw/openclaw.json (sha256 98adb27cb0573b7ec3266f1d39d1ad04d9cc44ef03841751cea1766f7127709c -> 7c8eafa5fca19816280da911cf1535d25f8a2c74ea8641c062fe7cd74841801c, backup=/home/sandbox/.openclaw/openclaw.json.bak)
+Updated models.providers.xiaoyiprovider.headers.x-uid. Restart the gateway to apply.
+{
+  "Accept": "text/event-stream",
+  "x-request-from": "openclaw",
+  "x-uid": "2850086000502191479"
+}
+Config overwrite: /home/sandbox/.openclaw/openclaw.json (sha256 7c8eafa5fca19816280da911cf1535d25f8a2c74ea8641c062fe7cd74841801c -> c38f716da4f0a818c0ce954fe000a8729dfc74c9c0664ce996e01577aaee933a, backup=/home/sandbox/.openclaw/openclaw.json.bak)
+Updated models.providers.xiaoyiprovider.headers.x-api-key. Restart the gateway to apply.
+Config overwrite: /home/sandbox/.openclaw/openclaw.json (sha256 c38f716da4f0a818c0ce954fe000a8729dfc74c9c0664ce996e01577aaee933a -> e99edb3ac29a35dc2aaf908d3e70aba9bf8b93bfeb73603e0496c9baaa4cb7a6, backup=/home/sandbox/.openclaw/openclaw.json.bak)
+Updated models.providers.xiaoyiprovider.baseUrl. Restart the gateway to apply.
+[2026-04-30 14:29:22] ✅ 模型配置完成
+[2026-04-30 14:29:22] 🚀 正在启动服务并执行后续任务...
+openclaw-gateway: started
+[2026-04-30 14:29:25] ⚠️ zipUrl 为空，跳过执行
+[2026-04-30 14:29:25] 📥 正在下载技能包...
+Info: skipped workspace skills installation by --no-skills.
+Info: skillhub plugin config entry not found or already removed; skip disable.
+Install complete.
+  mode: all
+  cli: /home/sandbox/.local/bin/skillhub
+  skill: skipped (--no-skills)
+
+Quick check:
+  skillhub search calendar
+  skills install skipped by --no-skills
+[2026-04-30 14:29:27] 💾 正在备份配置文件...
+[2026-04-30 14:29:27] ✅ 配置文件已备份
+[2026-04-30 14:29:27] ========================================
+[2026-04-30 14:29:27] ✅ OpenClaw 初始化配置完成
+[2026-04-30 14:29:27] ⏱️  总耗时：
+[2026-04-30 14:29:27] 📂 日志文件路径：/home/sandbox/.openclaw/workspace/logs/init_20260430_142841.log
+[2026-04-30 14:29:27] ========================================
