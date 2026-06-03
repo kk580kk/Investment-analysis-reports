@@ -3,9 +3,11 @@ node_modules/
 .pnp
 .pnp.js
 
-# Build output
-dist/
-dist-ssr/
+# Build output (we use docs/ for GitHub Pages from main branch)
+# docs/ is committed to repo for GitHub Pages deployment
+
+# Workbuddy automation data
+.workbuddy/
 
 # Environment variables
 .env

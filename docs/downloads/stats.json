@@ -1,0 +1,268 @@
+{
+  "totalReports": 638,
+  "dateRange": {
+    "earliest": "2025-03-17",
+    "latest": "2026-06-03"
+  },
+  "categoryCounts": [
+    {
+      "category": "event",
+      "label": "事件投资机会",
+      "count": 360
+    },
+    {
+      "category": "comprehensive",
+      "label": "综合投资报告",
+      "count": 98
+    },
+    {
+      "category": "trend",
+      "label": "长期趋势路径",
+      "count": 66
+    },
+    {
+      "category": "other",
+      "label": "其他",
+      "count": 64
+    },
+    {
+      "category": "deep",
+      "label": "深度研究",
+      "count": 50
+    }
+  ],
+  "monthlyCounts": [
+    {
+      "month": "2025-03",
+      "count": 2
+    },
+    {
+      "month": "2025-07",
+      "count": 8
+    },
+    {
+      "month": "2026-02",
+      "count": 10
+    },
+    {
+      "month": "2026-03",
+      "count": 192
+    },
+    {
+      "month": "2026-04",
+      "count": 130
+    },
+    {
+      "month": "2026-05",
+      "count": 290
+    },
+    {
+      "month": "2026-06",
+      "count": 6
+    }
+  ],
+  "topTags": [
+    {
+      "tag": "AI",
+      "count": 432
+    },
+    {
+      "tag": "能源",
+      "count": 404
+    },
+    {
+      "tag": "新能源",
+      "count": 302
+    },
+    {
+      "tag": "算力",
+      "count": 276
+    },
+    {
+      "tag": "芯片",
+      "count": 252
+    },
+    {
+      "tag": "地缘政治",
+      "count": 218
+    },
+    {
+      "tag": "供应链",
+      "count": 204
+    },
+    {
+      "tag": "贸易",
+      "count": 200
+    },
+    {
+      "tag": "人工智能",
+      "count": 200
+    },
+    {
+      "tag": "半导体",
+      "count": 200
+    },
+    {
+      "tag": "中美",
+      "count": 180
+    },
+    {
+      "tag": "基本面",
+      "count": 154
+    },
+    {
+      "tag": "通信",
+      "count": 142
+    },
+    {
+      "tag": "机器人",
+      "count": 126
+    },
+    {
+      "tag": "制造业",
+      "count": 124
+    },
+    {
+      "tag": "储能",
+      "count": 124
+    },
+    {
+      "tag": "黄金",
+      "count": 116
+    },
+    {
+      "tag": "光伏",
+      "count": 112
+    },
+    {
+      "tag": "具身智能",
+      "count": 98
+    },
+    {
+      "tag": "人形机器人",
+      "count": 92
+    },
+    {
+      "tag": "卫星",
+      "count": 90
+    },
+    {
+      "tag": "数字经济",
+      "count": 90
+    },
+    {
+      "tag": "航天",
+      "count": 86
+    },
+    {
+      "tag": "价值投资",
+      "count": 80
+    },
+    {
+      "tag": "英伟达",
+      "count": 76
+    },
+    {
+      "tag": "电网",
+      "count": 76
+    },
+    {
+      "tag": "货币政策",
+      "count": 74
+    },
+    {
+      "tag": "航运",
+      "count": 70
+    },
+    {
+      "tag": "格雷厄姆",
+      "count": 66
+    },
+    {
+      "tag": "巴菲特",
+      "count": 62
+    }
+  ],
+  "topStocks": [
+    {
+      "code": "601857",
+      "count": 38
+    },
+    {
+      "code": "600938",
+      "count": 36
+    },
+    {
+      "code": "688256",
+      "count": 34
+    },
+    {
+      "code": "600111",
+      "count": 26
+    },
+    {
+      "code": "300750",
+      "count": 22
+    },
+    {
+      "code": "688027",
+      "count": 22
+    },
+    {
+      "code": "688041",
+      "count": 22
+    },
+    {
+      "code": "688981",
+      "count": 22
+    },
+    {
+      "code": "300308",
+      "count": 18
+    },
+    {
+      "code": "600519",
+      "count": 18
+    },
+    {
+      "code": "688012",
+      "count": 18
+    },
+    {
+      "code": "600026",
+      "count": 16
+    },
+    {
+      "code": "600036",
+      "count": 16
+    },
+    {
+      "code": "002371",
+      "count": 16
+    },
+    {
+      "code": "600028",
+      "count": 14
+    },
+    {
+      "code": "600150",
+      "count": 14
+    },
+    {
+      "code": "603019",
+      "count": 14
+    },
+    {
+      "code": "000063",
+      "count": 14
+    },
+    {
+      "code": "002230",
+      "count": 14
+    },
+    {
+      "code": "601899",
+      "count": 12
+    }
+  ]
+}
