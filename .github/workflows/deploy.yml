@@ -6,8 +6,8 @@
 #   2. 手动触发（workflow_dispatch）
 #
 # 部署流程：
-#   checkout 前端代码 → checkout 报告源数据 → npm ci → 构建索引 →
-#   npm run build → 部署到 gh-pages 分支
+#   checkout 前端代码 → npm ci → 构建索引 →
+#   npm run build → 提交 docs/ 到 main 分支（GitHub Pages 从 /docs 目录部署）
 
 name: Deploy to GitHub Pages
 
@@ -102,14 +102,12 @@ jobs:
         run: npm run build
 
       # ============================================================
-      # Step 7: 部署到 GitHub Pages
+      # Step 7: 部署到 GitHub Pages (docs/ on main branch)
       # ============================================================
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          publish_branch: gh-pages
-          force_orphan: true
-          commit_message: 'deploy: ${{ github.sha }} [skip ci]'
-          # cname: reports.example.com  # 如有自定义域名
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs
+          git commit -m "deploy: ${{ github.sha }} [skip ci]"
+          git push origin main
