@@ -63,7 +63,7 @@ export const useReportStore = defineStore('report', () => {
     loading.value = true;
     error.value = null;
     try {
-      const resp = await fetch('/data/reports-index.json');
+      const resp = await fetch(`${import.meta.env.BASE_URL}data/reports-index.json`);
       if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
       reports.value = await resp.json();
     } catch (e) {
@@ -77,7 +77,7 @@ export const useReportStore = defineStore('report', () => {
   async function loadStats() {
     if (stats.value) return;
     try {
-      const resp = await fetch('/data/stats.json');
+      const resp = await fetch(`${import.meta.env.BASE_URL}data/stats.json`);
       if (resp.ok) {
         stats.value = await resp.json();
       }
