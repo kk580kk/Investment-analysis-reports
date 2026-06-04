@@ -18,7 +18,7 @@ watch(reportId, async (id) => {
     return;
   }
   try {
-    const resp = await fetch(`/data/reports/${meta.path}`);
+    const resp = await fetch(`${import.meta.env.BASE_URL}reports/${meta.path}`);
     if (resp.ok) {
       content.value = await resp.text();
     }
