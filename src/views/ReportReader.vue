@@ -2,10 +2,36 @@
 import { ref, watch, computed } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 import { useReportStore } from '@/stores/reports';
+import MarkdownIt from 'markdown-it';
+import hljs from 'highlight.js';
 
 const route = useRoute();
 const router = useRouter();
 const store = useReportStore();
+
+function highlightCode(str: string, lang: string): string {
+  if (lang && hljs.getLanguage(lang)) {
+    try {
+      return `<pre class="hljs"><code>${hljs.highlight(str, { language: lang, ignoreIllegals: true }).value}</code></pre>`;
+    } catch {}
+  }
+  return `<pre class="hljs"><code>${escapeHtml(str)}</code></pre>`;
+}
+
+function escapeHtml(text: string): string {
+  return text
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+const md = new MarkdownIt({
+  html: true,
+  linkify: true,
+  typographer: true,
+  highlight: highlightCode,
+});
 
 const reportId = computed(() => route.params.id as string);
 const report = computed(() => store.getReportById(reportId.value));
@@ -20,7 +46,7 @@ watch(reportId, async (id) => {
   try {
     const resp = await fetch(`${import.meta.env.BASE_URL}reports/${meta.path}`);
     if (resp.ok) {
-      content.value = await resp.text();
+      content.value = md.render(await resp.text());
     }
   } catch {
     content.value = '无法加载报告内容';
