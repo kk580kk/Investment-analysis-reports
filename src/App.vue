@@ -3,6 +3,7 @@ import { ref } from 'vue';
 import { useRouter } from 'vue-router';
 import { useReportStore } from '@/stores/reports';
 import { ReportCategory, CategoryLabels } from '@/types';
+import AppSidebar from '@/components/layout/AppSidebar.vue';
 
 const router = useRouter();
 const store = useReportStore();
@@ -135,8 +136,8 @@ function handleSearch() {
     <!-- ============================================================ -->
     <div class="flex-1 flex">
       <!-- 桌面端左侧边栏 -->
-      <aside class="hidden lg:block w-[240px] flex-shrink-0 border-r border-gray-200 bg-white">
-        <CategoryNav @navigate="navigateToCategory" />
+      <aside class="hidden lg:block w-[240px] flex-shrink-0 border-r border-gray-200 bg-white overflow-y-auto">
+        <AppSidebar @navigate="navigateToCategory" />
       </aside>
 
       <!-- 内容区 -->

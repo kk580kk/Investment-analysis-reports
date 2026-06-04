@@ -1,14 +1,14 @@
 <script setup lang="ts">
+import StatsDashboard from '@/components/stats/StatsDashboard.vue';
 import { useReportStore } from '@/stores/reports';
-import { ReportCategory } from '@/types';
 
 const store = useReportStore();
 </script>
 
 <template>
   <div class="max-w-6xl mx-auto px-4 py-8">
-    <h1 class="text-2xl font-bold mb-2">投资分析报告阅读平台</h1>
-    <p class="text-gray-500 mb-6">共 {{ store.totalCount }} 篇报告</p>
+    <h1 class="text-2xl font-bold mb-1">投资分析报告阅读平台</h1>
+    <p class="text-gray-500 text-sm mb-6">共 {{ store.totalCount }} 篇报告</p>
 
     <div v-if="store.loading" class="flex justify-center py-12">
       <span class="text-gray-400">加载中...</span>
@@ -19,35 +19,15 @@ const store = useReportStore();
     </div>
 
     <div v-else>
-      <!-- 统计区域占位 -->
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-        <div class="report-card text-center">
-          <div class="text-3xl font-bold text-primary-600">{{ store.totalCount }}</div>
-          <div class="text-sm text-gray-500 mt-1">报告总数</div>
-        </div>
-        <div class="report-card text-center">
-          <div class="text-3xl font-bold text-accent-500">
-            {{ store.reportsByCategory.get(ReportCategory.Event)?.length || 0 }}
-          </div>
-          <div class="text-sm text-gray-500 mt-1">事件投资</div>
-        </div>
-        <div class="report-card text-center">
-          <div class="text-3xl font-bold text-accent-500">
-            {{ store.reportsByCategory.get(ReportCategory.Comprehensive)?.length || 0 }}
-          </div>
-          <div class="text-sm text-gray-500 mt-1">综合报告</div>
-        </div>
-        <div class="report-card text-center">
-          <div class="text-3xl font-bold text-accent-500">
-            {{ store.reportsByCategory.get(ReportCategory.Trend)?.length || 0 }}
-          </div>
-          <div class="text-sm text-gray-500 mt-1">趋势路径</div>
-        </div>
-      </div>
+      <!-- 统计仪表盘 -->
+      <StatsDashboard />
 
       <!-- 报告时间线 -->
       <div v-for="[month, items] in store.reportsByYearMonth" :key="month" class="mb-8">
-        <h2 class="text-lg font-semibold text-primary-800 mb-3">
+        <h2
+          :id="`month-${month}`"
+          class="text-lg font-semibold text-primary-800 mb-3 scroll-mt-16"
+        >
           {{ month.substring(0, 4) }}年{{ parseInt(month.substring(5, 7)) }}月
           <span class="text-sm text-gray-400 font-normal ml-2">{{ items.length }} 篇</span>
         </h2>
