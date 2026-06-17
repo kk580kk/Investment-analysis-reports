@@ -1,5 +1,5 @@
 {
-  "totalReports": 3030,
+  "totalReports": 7709,
   "dateRange": {
     "earliest": "2025-03-17",
     "latest": "2026-06-16"
@@ -8,265 +8,265 @@
     {
       "category": "event",
       "label": "事件投资机会",
-      "count": 1689
+      "count": 4301
     },
     {
       "category": "comprehensive",
       "label": "综合投资报告",
-      "count": 444
+      "count": 1134
     },
     {
       "category": "trend",
       "label": "长期趋势路径",
-      "count": 351
+      "count": 886
     },
     {
       "category": "other",
       "label": "其他",
-      "count": 321
+      "count": 813
     },
     {
       "category": "deep",
       "label": "深度研究",
-      "count": 225
+      "count": 575
     }
   ],
   "monthlyCounts": [
     {
       "month": "2025-03",
-      "count": 9
+      "count": 23
     },
     {
       "month": "2025-06",
-      "count": 12
+      "count": 28
     },
     {
       "month": "2025-07",
-      "count": 36
+      "count": 92
     },
     {
       "month": "2026-02",
-      "count": 45
+      "count": 115
     },
     {
       "month": "2026-03",
-      "count": 864
+      "count": 2208
     },
     {
       "month": "2026-04",
-      "count": 585
+      "count": 1495
     },
     {
       "month": "2026-05",
-      "count": 1308
+      "count": 3342
     },
     {
       "month": "2026-06",
-      "count": 171
+      "count": 406
     }
   ],
   "topTags": [
     {
       "tag": "AI",
-      "count": 2067
+      "count": 5256
     },
     {
       "tag": "能源",
-      "count": 1941
+      "count": 4934
     },
     {
       "tag": "新能源",
-      "count": 1455
+      "count": 3698
     },
     {
       "tag": "算力",
-      "count": 1344
+      "count": 3413
     },
     {
       "tag": "芯片",
-      "count": 1221
+      "count": 3102
     },
     {
       "tag": "地缘政治",
-      "count": 1011
+      "count": 2577
     },
     {
       "tag": "半导体",
-      "count": 981
+      "count": 2490
     },
     {
       "tag": "人工智能",
-      "count": 972
+      "count": 2468
     },
     {
       "tag": "供应链",
-      "count": 963
+      "count": 2451
     },
     {
       "tag": "贸易",
-      "count": 945
+      "count": 2405
     },
     {
       "tag": "中美",
-      "count": 816
+      "count": 2084
     },
     {
       "tag": "基本面",
-      "count": 729
+      "count": 1855
     },
     {
       "tag": "通信",
-      "count": 672
+      "count": 1710
     },
     {
       "tag": "机器人",
-      "count": 615
+      "count": 1561
     },
     {
       "tag": "储能",
-      "count": 615
+      "count": 1560
     },
     {
       "tag": "制造业",
-      "count": 570
+      "count": 1454
     },
     {
       "tag": "光伏",
-      "count": 567
+      "count": 1436
     },
     {
       "tag": "黄金",
-      "count": 558
+      "count": 1419
     },
     {
       "tag": "具身智能",
-      "count": 456
+      "count": 1162
     },
     {
       "tag": "人形机器人",
-      "count": 441
+      "count": 1121
     },
     {
       "tag": "数字经济",
-      "count": 435
+      "count": 1106
     },
     {
       "tag": "航天",
-      "count": 432
+      "count": 1094
     },
     {
       "tag": "卫星",
-      "count": 426
+      "count": 1085
     },
     {
       "tag": "英伟达",
-      "count": 378
+      "count": 959
     },
     {
       "tag": "电网",
-      "count": 363
+      "count": 923
     },
     {
       "tag": "价值投资",
-      "count": 360
+      "count": 920
     },
     {
       "tag": "航运",
-      "count": 336
+      "count": 854
     },
     {
       "tag": "货币政策",
-      "count": 333
+      "count": 851
     },
     {
       "tag": "格雷厄姆",
-      "count": 297
+      "count": 759
     },
     {
       "tag": "军工",
-      "count": 294
+      "count": 746
     }
   ],
   "topStocks": [
     {
       "code": "601857",
-      "count": 180
+      "count": 460
     },
     {
       "code": "600938",
-      "count": 177
+      "count": 451
     },
     {
       "code": "688256",
-      "count": 159
+      "count": 405
     },
     {
       "code": "600111",
-      "count": 117
+      "count": 299
     },
     {
       "code": "300750",
-      "count": 99
+      "count": 253
     },
     {
       "code": "688027",
-      "count": 99
+      "count": 253
     },
     {
       "code": "688041",
-      "count": 99
+      "count": 253
     },
     {
       "code": "688981",
-      "count": 99
+      "count": 253
     },
     {
       "code": "688012",
-      "count": 90
+      "count": 230
     },
     {
       "code": "300308",
-      "count": 87
+      "count": 221
     },
     {
       "code": "600519",
-      "count": 81
+      "count": 207
     },
     {
       "code": "002371",
-      "count": 78
+      "count": 198
     },
     {
       "code": "600026",
-      "count": 72
+      "count": 184
     },
     {
       "code": "600036",
-      "count": 72
+      "count": 184
     },
     {
       "code": "002230",
-      "count": 66
+      "count": 168
     },
     {
       "code": "600028",
-      "count": 63
+      "count": 161
     },
     {
       "code": "600150",
-      "count": 63
+      "count": 161
     },
     {
       "code": "603019",
-      "count": 63
+      "count": 161
     },
     {
       "code": "000063",
-      "count": 63
+      "count": 161
     },
     {
       "code": "601899",
-      "count": 60
+      "count": 152
     }
   ]
 }
