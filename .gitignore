@@ -44,3 +44,6 @@ coverage/
 public/data/
 public/reports/
 public/downloads/
+
+# Docs data files (too large for GitHub, generated during build)
+docs/data/
