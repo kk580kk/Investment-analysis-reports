@@ -45,5 +45,5 @@ public/data/
 public/reports/
 public/downloads/
 
-# Docs data files (too large for GitHub, generated during build)
-docs/data/
+# Docs data files - now committed for GitHub Pages
+# docs/data/
