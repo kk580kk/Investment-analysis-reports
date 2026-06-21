@@ -348,7 +348,7 @@ for (const filePath of filtered) {
     attachments,
   });
 
-  // 搜索文档（含全文内容，上限 5000 字符）
+  // 搜索文档（不包含全文内容，只包含元数据，用于前端搜索）
   searchDocs.push({
     id,
     title: cleanTitle(filename),
@@ -357,7 +357,7 @@ for (const filePath of filtered) {
     category,
     tags,
     stockCodes,
-    content: content.substring(0, 5000),
+    excerpt,
   });
 
   parsedCount++;
@@ -400,12 +400,12 @@ fs.mkdirSync(dataDir, { recursive: true });
 
 fs.writeFileSync(
   path.join(dataDir, 'reports-index.json'),
-  JSON.stringify(reports, null, 2),
+  JSON.stringify(reports),
   'utf-8',
 );
 fs.writeFileSync(
   path.join(dataDir, 'search-index.json'),
-  JSON.stringify(searchDocs, null, 2),
+  JSON.stringify(searchDocs),
   'utf-8',
 );
 fs.writeFileSync(

@@ -44,3 +44,6 @@ coverage/
 public/data/
 public/reports/
 public/downloads/
+
+# Docs data files - now committed for GitHub Pages
+# docs/data/
