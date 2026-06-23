@@ -1,0 +1,130 @@
+{
+  "stocks": {
+    "招商银行": {
+      "code": "600036",
+      "current_price": 162.58,
+      "intrinsic_value": 465.59,
+      "safety_margin": 0.6508,
+      "pe_ratio": 6.46,
+      "pb_ratio": 1.0,
+      "roe": 0.1297,
+      "industry": "银行",
+      "risk_level": "low",
+      "expected_return": 0.15,
+      "volatility": 0.2
+    },
+    "分众传媒": {
+      "code": "002027",
+      "current_price": 85.0,
+      "intrinsic_value": 120.0,
+      "safety_margin": 0.29,
+      "pe_ratio": 18.5,
+      "pb_ratio": 3.2,
+      "roe": 0.42,
+      "industry": "传媒",
+      "risk_level": "medium",
+      "expected_return": 0.2,
+      "volatility": 0.35
+    },
+    "中兴通讯": {
+      "code": "000063",
+      "current_price": 39.0,
+      "intrinsic_value": 53.88,
+      "safety_margin": 0.2762,
+      "pe_ratio": 13.39,
+      "pb_ratio": 0.81,
+      "roe": 0.2273,
+      "industry": "通信设备",
+      "risk_level": "high",
+      "expected_return": 0.25,
+      "volatility": 0.4
+    }
+  },
+  "portfolio_strategies": {
+    "等权重配置": {
+      "weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "metrics": {
+        "expected_return": 0.2,
+        "risk": 0.23955978145107934,
+        "sharpe_ratio": 0.709634976999325
+      }
+    },
+    "价值导向配置": {
+      "weights": [
+        0.5,
+        0.3,
+        0.2
+      ],
+      "metrics": {
+        "expected_return": 0.185,
+        "risk": 0.21081982828946616,
+        "sharpe_ratio": 0.7352249608475027
+      }
+    },
+    "成长导向配置": {
+      "weights": [
+        0.25,
+        0.35,
+        0.4
+      ],
+      "metrics": {
+        "expected_return": 0.2075,
+        "risk": 0.2578007951888434,
+        "sharpe_ratio": 0.6885161074463648
+      }
+    },
+    "风险平价配置": {
+      "weights": [
+        0.45,
+        0.3,
+        0.25
+      ],
+      "metrics": {
+        "expected_return": 0.19,
+        "risk": 0.21839184966477115,
+        "sharpe_ratio": 0.7326280730970413
+      }
+    },
+    "推荐配置": {
+      "weights": [
+        0.4,
+        0.35,
+        0.25
+      ],
+      "metrics": {
+        "expected_return": 0.1925,
+        "risk": 0.22602267585355235,
+        "sharpe_ratio": 0.7189544119249751
+      }
+    }
+  },
+  "correlation_matrix": [
+    [
+      1.0,
+      0.3,
+      0.25
+    ],
+    [
+      0.3,
+      1.0,
+      0.4
+    ],
+    [
+      0.25,
+      0.4,
+      1.0
+    ]
+  ],
+  "recommendation": {
+    "weights": [
+      0.4,
+      0.35,
+      0.25
+    ],
+    "rationale": "基于安全边际、成长性和风险分散的综合考虑"
+  }
+}
