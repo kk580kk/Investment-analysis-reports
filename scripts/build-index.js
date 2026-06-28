@@ -21,7 +21,7 @@ const OUTPUT_DIR = getArg('--output', './public');
 // ============================================================
 // 排除目录
 // ============================================================
-const EXCLUDE_DIRS = new Set(['.git', '.workbuddy', 'node_modules', 'dist', '.vscode', '.idea']);
+const EXCLUDE_DIRS = new Set(['.git', '.workbuddy', 'node_modules', 'dist', '.vscode', '.idea', 'public', 'docs']);
 const SKIP_PATTERNS = [/readme/i, /README/i];
 
 // ============================================================
