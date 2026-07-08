@@ -72,11 +72,29 @@ watch(reportId, async (id) => {
     return;
   }
   try {
-    const resp = await fetch(`${import.meta.env.BASE_URL}reports/${meta.path}`);
-    if (resp.ok) {
-      const rawMd = await resp.text();
+    // Try loading from GitHub raw first (for production), fall back to local reports/
+    const githubBase = 'https://raw.githubusercontent.com/kk580kk/Investment-analysis-reports/main/';
+    let rawMd = null;
+    
+    // Try GitHub raw URL first
+    try {
+      const resp = await fetch(`${githubBase}${meta.path}`);
+      if (resp.ok) rawMd = await resp.text();
+    } catch { /* fall through */ }
+    
+    // Fallback: try local reports/ directory
+    if (!rawMd) {
+      try {
+        const resp = await fetch(`${import.meta.env.BASE_URL}reports/${meta.path}`);
+        if (resp.ok) rawMd = await resp.text();
+      } catch { /* fall through */ }
+    }
+    
+    if (rawMd) {
       tocItems.value = extractToc(rawMd);
       content.value = md.render(rawMd);
+    } else {
+      content.value = '无法加载报告内容';
     }
   } catch {
     content.value = '无法加载报告内容';
