@@ -1,19 +1,14 @@
 {
-  "totalReports": 58352,
+  "totalReports": 58353,
   "dateRange": {
     "earliest": "2025-03-17",
     "latest": "2026-07-08"
   },
   "categoryCounts": [
     {
-      "category": "other",
-      "label": "其他",
-      "count": 7025
-    },
-    {
       "category": "event",
       "label": "事件投资机会",
-      "count": 30825
+      "count": 30826
     },
     {
       "category": "trend",
@@ -24,6 +19,11 @@
       "category": "comprehensive",
       "label": "综合投资报告",
       "count": 7584
+    },
+    {
+      "category": "other",
+      "label": "其他",
+      "count": 7025
     },
     {
       "category": "deep",
