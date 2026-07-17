@@ -1,0 +1,69 @@
+{
+  "months": [
+    "2025-03",
+    "2025-06",
+    "2025-07",
+    "2026-02",
+    "2026-03",
+    "2026-04",
+    "2026-05",
+    "2026-06",
+    "2026-07"
+  ],
+  "chunks": [
+    {
+      "month": "2025-03",
+      "reports": "reports-index-2025-03.json",
+      "search": "search-index-2025-03.json",
+      "count": 1
+    },
+    {
+      "month": "2025-06",
+      "reports": "reports-index-2025-06.json",
+      "search": "search-index-2025-06.json",
+      "count": 7
+    },
+    {
+      "month": "2025-07",
+      "reports": "reports-index-2025-07.json",
+      "search": "search-index-2025-07.json",
+      "count": 4
+    },
+    {
+      "month": "2026-02",
+      "reports": "reports-index-2026-02.json",
+      "search": "search-index-2026-02.json",
+      "count": 5
+    },
+    {
+      "month": "2026-03",
+      "reports": "reports-index-2026-03.json",
+      "search": "search-index-2026-03.json",
+      "count": 96
+    },
+    {
+      "month": "2026-04",
+      "reports": "reports-index-2026-04.json",
+      "search": "search-index-2026-04.json",
+      "count": 65
+    },
+    {
+      "month": "2026-05",
+      "reports": "reports-index-2026-05.json",
+      "search": "search-index-2026-05.json",
+      "count": 160
+    },
+    {
+      "month": "2026-06",
+      "reports": "reports-index-2026-06.json",
+      "search": "search-index-2026-06.json",
+      "count": 63
+    },
+    {
+      "month": "2026-07",
+      "reports": "reports-index-2026-07.json",
+      "search": "search-index-2026-07.json",
+      "count": 33
+    }
+  ]
+}
