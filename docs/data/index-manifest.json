@@ -15,55 +15,55 @@
       "month": "2025-03",
       "reports": "reports-index-2025-03.json",
       "search": "search-index-2025-03.json",
-      "count": 1
+      "count": 3
     },
     {
       "month": "2025-06",
       "reports": "reports-index-2025-06.json",
       "search": "search-index-2025-06.json",
-      "count": 7
+      "count": 21
     },
     {
       "month": "2025-07",
       "reports": "reports-index-2025-07.json",
       "search": "search-index-2025-07.json",
-      "count": 4
+      "count": 12
     },
     {
       "month": "2026-02",
       "reports": "reports-index-2026-02.json",
       "search": "search-index-2026-02.json",
-      "count": 5
+      "count": 15
     },
     {
       "month": "2026-03",
       "reports": "reports-index-2026-03.json",
       "search": "search-index-2026-03.json",
-      "count": 96
+      "count": 288
     },
     {
       "month": "2026-04",
       "reports": "reports-index-2026-04.json",
       "search": "search-index-2026-04.json",
-      "count": 65
+      "count": 195
     },
     {
       "month": "2026-05",
       "reports": "reports-index-2026-05.json",
       "search": "search-index-2026-05.json",
-      "count": 160
+      "count": 480
     },
     {
       "month": "2026-06",
       "reports": "reports-index-2026-06.json",
       "search": "search-index-2026-06.json",
-      "count": 63
+      "count": 189
     },
     {
       "month": "2026-07",
       "reports": "reports-index-2026-07.json",
       "search": "search-index-2026-07.json",
-      "count": 33
+      "count": 105
     }
   ]
 }
