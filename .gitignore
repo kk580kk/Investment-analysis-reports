@@ -5,6 +5,10 @@ node_modules/
 docs/reports/
 docs/downloads/
 
+# Large combined index files (exceed GitHub's 100MB limit) — use split/monthly files instead
+docs/data/reports-index.json
+docs/data/search-index.json
+
 # IDE
 .vscode/
 .idea/
