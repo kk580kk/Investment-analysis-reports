@@ -1,19 +1,19 @@
 {
-  "totalReports": 446,
+  "totalReports": 449,
   "dateRange": {
     "earliest": "2025-03-17",
-    "latest": "2026-07-24"
+    "latest": "2026-07-26"
   },
   "categoryCounts": [
     {
       "category": "event",
       "label": "事件投资机会",
-      "count": 241
+      "count": 243
     },
     {
       "category": "trend",
       "label": "长期趋势路径",
-      "count": 70
+      "count": 71
     },
     {
       "category": "other",
@@ -66,33 +66,33 @@
     },
     {
       "month": "2026-07",
-      "count": 64
+      "count": 67
     }
   ],
   "topTags": [
     {
       "tag": "AI",
-      "count": 316
+      "count": 318
     },
     {
       "tag": "能源",
-      "count": 279
+      "count": 280
     },
     {
       "tag": "算力",
-      "count": 220
+      "count": 222
     },
     {
       "tag": "新能源",
-      "count": 212
+      "count": 213
     },
     {
       "tag": "芯片",
-      "count": 191
+      "count": 193
     },
     {
       "tag": "半导体",
-      "count": 160
+      "count": 162
     },
     {
       "tag": "人工智能",
@@ -108,7 +108,7 @@
     },
     {
       "tag": "贸易",
-      "count": 122
+      "count": 124
     },
     {
       "tag": "储能",
@@ -116,7 +116,7 @@
     },
     {
       "tag": "中美",
-      "count": 103
+      "count": 104
     },
     {
       "tag": "机器人",
@@ -136,7 +136,7 @@
     },
     {
       "tag": "黄金",
-      "count": 86
+      "count": 88
     },
     {
       "tag": "制造业",
@@ -159,12 +159,12 @@
       "count": 58
     },
     {
-      "tag": "数字经济",
+      "tag": "英伟达",
       "count": 58
     },
     {
-      "tag": "英伟达",
-      "count": 56
+      "tag": "数字经济",
+      "count": 58
     },
     {
       "tag": "电网",
@@ -172,15 +172,15 @@
     },
     {
       "tag": "光模块",
-      "count": 49
+      "count": 50
     },
     {
       "tag": "航运",
-      "count": 47
+      "count": 48
     },
     {
       "tag": "军工",
-      "count": 45
+      "count": 46
     },
     {
       "tag": "货币政策",
@@ -222,7 +222,7 @@
     },
     {
       "code": "688981",
-      "count": 12
+      "count": 13
     },
     {
       "code": "688027",
