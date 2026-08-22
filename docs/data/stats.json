@@ -1,8 +1,8 @@
 {
-  "totalReports": 484,
+  "totalReports": 485,
   "dateRange": {
     "earliest": "2025-03-17",
-    "latest": "2026-08-20"
+    "latest": "2026-08-21"
   },
   "categoryCounts": [
     {
@@ -13,7 +13,7 @@
     {
       "category": "trend",
       "label": "长期趋势路径",
-      "count": 76
+      "count": 77
     },
     {
       "category": "other",
@@ -70,13 +70,13 @@
     },
     {
       "month": "2026-08",
-      "count": 31
+      "count": 32
     }
   ],
   "topTags": [
     {
       "tag": "AI",
-      "count": 340
+      "count": 341
     },
     {
       "tag": "能源",
@@ -84,7 +84,7 @@
     },
     {
       "tag": "算力",
-      "count": 235
+      "count": 236
     },
     {
       "tag": "新能源",
@@ -92,7 +92,7 @@
     },
     {
       "tag": "芯片",
-      "count": 210
+      "count": 211
     },
     {
       "tag": "半导体",
@@ -136,11 +136,11 @@
     },
     {
       "tag": "通信",
-      "count": 97
+      "count": 98
     },
     {
       "tag": "黄金",
-      "count": 94
+      "count": 95
     },
     {
       "tag": "人形机器人",
@@ -156,19 +156,19 @@
     },
     {
       "tag": "英伟达",
-      "count": 71
+      "count": 72
     },
     {
       "tag": "航天",
-      "count": 67
+      "count": 68
     },
     {
       "tag": "卫星",
-      "count": 64
+      "count": 65
     },
     {
       "tag": "光模块",
-      "count": 59
+      "count": 60
     },
     {
       "tag": "数字经济",
@@ -188,7 +188,7 @@
     },
     {
       "tag": "商业航天",
-      "count": 42
+      "count": 43
     },
     {
       "tag": "货币政策",
