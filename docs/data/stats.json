@@ -1,19 +1,19 @@
 {
-  "totalReports": 485,
+  "totalReports": 488,
   "dateRange": {
     "earliest": "2025-03-17",
-    "latest": "2026-08-21"
+    "latest": "2026-08-22"
   },
   "categoryCounts": [
     {
       "category": "event",
       "label": "事件投资机会",
-      "count": 268
+      "count": 270
     },
     {
       "category": "trend",
       "label": "长期趋势路径",
-      "count": 77
+      "count": 78
     },
     {
       "category": "other",
@@ -70,29 +70,29 @@
     },
     {
       "month": "2026-08",
-      "count": 32
+      "count": 35
     }
   ],
   "topTags": [
     {
       "tag": "AI",
-      "count": 341
+      "count": 343
     },
     {
       "tag": "能源",
-      "count": 297
+      "count": 300
     },
     {
       "tag": "算力",
-      "count": 236
+      "count": 238
     },
     {
       "tag": "新能源",
-      "count": 226
+      "count": 228
     },
     {
       "tag": "芯片",
-      "count": 211
+      "count": 213
     },
     {
       "tag": "半导体",
@@ -104,7 +104,7 @@
     },
     {
       "tag": "供应链",
-      "count": 134
+      "count": 135
     },
     {
       "tag": "地缘政治",
@@ -112,23 +112,23 @@
     },
     {
       "tag": "贸易",
-      "count": 127
+      "count": 129
     },
     {
       "tag": "机器人",
-      "count": 117
+      "count": 119
     },
     {
       "tag": "储能",
-      "count": 115
+      "count": 116
     },
     {
       "tag": "基本面",
-      "count": 112
+      "count": 113
     },
     {
       "tag": "中美",
-      "count": 110
+      "count": 113
     },
     {
       "tag": "光伏",
@@ -140,19 +140,19 @@
     },
     {
       "tag": "黄金",
-      "count": 95
+      "count": 98
     },
     {
       "tag": "人形机器人",
-      "count": 84
+      "count": 86
     },
     {
       "tag": "制造业",
-      "count": 77
+      "count": 79
     },
     {
       "tag": "具身智能",
-      "count": 74
+      "count": 76
     },
     {
       "tag": "英伟达",
@@ -164,15 +164,15 @@
     },
     {
       "tag": "卫星",
-      "count": 65
+      "count": 67
     },
     {
       "tag": "光模块",
-      "count": 60
+      "count": 61
     },
     {
       "tag": "数字经济",
-      "count": 58
+      "count": 59
     },
     {
       "tag": "电网",
@@ -180,7 +180,7 @@
     },
     {
       "tag": "航运",
-      "count": 54
+      "count": 55
     },
     {
       "tag": "军工",
@@ -191,14 +191,14 @@
       "count": 43
     },
     {
-      "tag": "货币政策",
-      "count": 40
+      "tag": "价值投资",
+      "count": 41
     }
   ],
   "topStocks": [
     {
       "code": "600938",
-      "count": 29
+      "count": 31
     },
     {
       "code": "601857",
