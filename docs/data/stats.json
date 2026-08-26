@@ -1,24 +1,24 @@
 {
-  "totalReports": 513,
+  "totalReports": 538,
   "dateRange": {
     "earliest": "2025-03-17",
-    "latest": "2026-08-24"
+    "latest": "2026-08-25"
   },
   "categoryCounts": [
     {
       "category": "event",
       "label": "事件投资机会",
-      "count": 289
+      "count": 311
     },
     {
       "category": "trend",
       "label": "长期趋势路径",
-      "count": 81
+      "count": 83
     },
     {
       "category": "other",
       "label": "其他",
-      "count": 64
+      "count": 65
     },
     {
       "category": "comprehensive",
@@ -70,53 +70,57 @@
     },
     {
       "month": "2026-08",
-      "count": 60
+      "count": 85
     }
   ],
   "topTags": [
     {
       "tag": "AI",
-      "count": 353
+      "count": 367
     },
     {
       "tag": "能源",
-      "count": 310
+      "count": 323
     },
     {
       "tag": "算力",
-      "count": 244
+      "count": 255
     },
     {
       "tag": "新能源",
-      "count": 233
+      "count": 241
     },
     {
       "tag": "芯片",
-      "count": 220
+      "count": 228
     },
     {
       "tag": "半导体",
-      "count": 174
+      "count": 177
     },
     {
       "tag": "人工智能",
-      "count": 159
+      "count": 160
     },
     {
       "tag": "供应链",
-      "count": 144
+      "count": 150
     },
     {
       "tag": "贸易",
-      "count": 136
-    },
-    {
-      "tag": "地缘政治",
-      "count": 130
+      "count": 143
     },
     {
       "tag": "机器人",
-      "count": 127
+      "count": 131
+    },
+    {
+      "tag": "地缘政治",
+      "count": 129
+    },
+    {
+      "tag": "中美",
+      "count": 125
     },
     {
       "tag": "基本面",
@@ -124,63 +128,59 @@
     },
     {
       "tag": "储能",
-      "count": 120
-    },
-    {
-      "tag": "中美",
-      "count": 119
-    },
-    {
-      "tag": "光伏",
-      "count": 109
+      "count": 123
     },
     {
       "tag": "黄金",
-      "count": 107
+      "count": 113
+    },
+    {
+      "tag": "光伏",
+      "count": 111
     },
     {
       "tag": "通信",
-      "count": 105
+      "count": 110
     },
     {
       "tag": "人形机器人",
-      "count": 93
+      "count": 96
     },
     {
       "tag": "制造业",
-      "count": 85
+      "count": 88
     },
     {
       "tag": "具身智能",
-      "count": 81
+      "count": 86
     },
     {
       "tag": "卫星",
-      "count": 80
+      "count": 81
     },
     {
       "tag": "英伟达",
-      "count": 76
+      "count": 81
     },
     {
       "tag": "航天",
-      "count": 71
+      "count": 73
     },
     {
       "tag": "光模块",
-      "count": 65
+      "count": 67
     },
     {
       "tag": "数字经济",
-      "count": 60
-    },
-    {
-      "tag": "航运",
-      "count": 57
+      "count": 61
     },
     {
       "tag": "电网",
-      "count": 57
+      "count": 59
+    },
+    {
+      "tag": "航运",
+      "count": 58
     },
     {
       "tag": "军工",
@@ -191,14 +191,14 @@
       "count": 45
     },
     {
-      "tag": "货币政策",
-      "count": 41
+      "tag": "5G",
+      "count": 43
     }
   ],
   "topStocks": [
     {
       "code": "600938",
-      "count": 36
+      "count": 40
     },
     {
       "code": "601857",
@@ -206,7 +206,7 @@
     },
     {
       "code": "688256",
-      "count": 19
+      "count": 21
     },
     {
       "code": "300308",
@@ -218,6 +218,10 @@
     },
     {
       "code": "600547",
+      "count": 15
+    },
+    {
+      "code": "601899",
       "count": 14
     },
     {
@@ -231,10 +235,6 @@
     {
       "code": "688981",
       "count": 13
-    },
-    {
-      "code": "601899",
-      "count": 12
     },
     {
       "code": "600519",
@@ -253,6 +253,10 @@
       "count": 11
     },
     {
+      "code": "600406",
+      "count": 10
+    },
+    {
       "code": "603019",
       "count": 10
     },
@@ -261,19 +265,15 @@
       "count": 10
     },
     {
+      "code": "000063",
+      "count": 10
+    },
+    {
       "code": "600036",
       "count": 9
     },
     {
-      "code": "600406",
-      "count": 9
-    },
-    {
       "code": "600845",
-      "count": 9
-    },
-    {
-      "code": "002050",
       "count": 9
     }
   ]
