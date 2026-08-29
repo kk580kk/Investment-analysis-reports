@@ -1,5 +1,5 @@
 {
-  "totalReports": 559,
+  "totalReports": 567,
   "dateRange": {
     "earliest": "2025-03-17",
     "latest": "2026-08-28"
@@ -8,7 +8,7 @@
     {
       "category": "event",
       "label": "事件投资机会",
-      "count": 329
+      "count": 336
     },
     {
       "category": "trend",
@@ -18,7 +18,7 @@
     {
       "category": "other",
       "label": "其他",
-      "count": 65
+      "count": 66
     },
     {
       "category": "comprehensive",
@@ -70,13 +70,13 @@
     },
     {
       "month": "2026-08",
-      "count": 106
+      "count": 114
     }
   ],
   "topTags": [
     {
       "tag": "AI",
-      "count": 383
+      "count": 388
     },
     {
       "tag": "能源",
@@ -84,59 +84,59 @@
     },
     {
       "tag": "算力",
-      "count": 268
+      "count": 273
     },
     {
       "tag": "新能源",
-      "count": 246
+      "count": 245
     },
     {
       "tag": "芯片",
-      "count": 232
+      "count": 235
     },
     {
       "tag": "半导体",
-      "count": 184
+      "count": 185
     },
     {
       "tag": "人工智能",
-      "count": 169
+      "count": 168
     },
     {
       "tag": "供应链",
-      "count": 156
+      "count": 159
     },
     {
       "tag": "贸易",
-      "count": 147
+      "count": 149
     },
     {
       "tag": "机器人",
-      "count": 140
+      "count": 141
+    },
+    {
+      "tag": "中美",
+      "count": 132
     },
     {
       "tag": "地缘政治",
       "count": 130
     },
     {
-      "tag": "中美",
-      "count": 130
-    },
-    {
       "tag": "储能",
-      "count": 127
+      "count": 126
     },
     {
       "tag": "基本面",
-      "count": 123
+      "count": 125
     },
     {
       "tag": "黄金",
-      "count": 117
+      "count": 119
     },
     {
       "tag": "通信",
-      "count": 116
+      "count": 117
     },
     {
       "tag": "光伏",
@@ -144,27 +144,27 @@
     },
     {
       "tag": "人形机器人",
-      "count": 98
+      "count": 100
     },
     {
       "tag": "具身智能",
-      "count": 90
+      "count": 91
     },
     {
       "tag": "制造业",
-      "count": 89
+      "count": 90
     },
     {
       "tag": "英伟达",
-      "count": 88
+      "count": 90
     },
     {
       "tag": "卫星",
-      "count": 85
+      "count": 86
     },
     {
       "tag": "航天",
-      "count": 80
+      "count": 79
     },
     {
       "tag": "光模块",
@@ -172,11 +172,11 @@
     },
     {
       "tag": "数字经济",
-      "count": 64
+      "count": 66
     },
     {
       "tag": "电网",
-      "count": 62
+      "count": 61
     },
     {
       "tag": "航运",
@@ -188,11 +188,11 @@
     },
     {
       "tag": "商业航天",
-      "count": 49
+      "count": 48
     },
     {
       "tag": "GPU",
-      "count": 43
+      "count": 44
     }
   ],
   "topStocks": [
@@ -205,39 +205,43 @@
       "count": 24
     },
     {
-      "code": "300308",
+      "code": "688256",
       "count": 21
     },
     {
-      "code": "688256",
-      "count": 21
+      "code": "300308",
+      "count": 20
     },
     {
       "code": "600547",
       "count": 17
     },
     {
+      "code": "601899",
+      "count": 16
+    },
+    {
+      "code": "688041",
+      "count": 16
+    },
+    {
       "code": "300750",
       "count": 15
     },
     {
-      "code": "601899",
-      "count": 14
-    },
-    {
-      "code": "688041",
-      "count": 14
+      "code": "688981",
+      "count": 15
     },
     {
       "code": "600111",
       "count": 13
     },
     {
-      "code": "688027",
+      "code": "688017",
       "count": 13
     },
     {
-      "code": "688981",
+      "code": "688027",
       "count": 13
     },
     {
@@ -250,10 +254,6 @@
     },
     {
       "code": "600845",
-      "count": 11
-    },
-    {
-      "code": "688017",
       "count": 11
     },
     {
