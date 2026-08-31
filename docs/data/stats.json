@@ -1,24 +1,24 @@
 {
-  "totalReports": 578,
+  "totalReports": 586,
   "dateRange": {
     "earliest": "2025-03-17",
-    "latest": "2026-08-29"
+    "latest": "2026-08-30"
   },
   "categoryCounts": [
     {
       "category": "event",
       "label": "事件投资机会",
-      "count": 345
+      "count": 351
     },
     {
       "category": "trend",
       "label": "长期趋势路径",
-      "count": 87
+      "count": 88
     },
     {
       "category": "other",
       "label": "其他",
-      "count": 67
+      "count": 68
     },
     {
       "category": "comprehensive",
@@ -70,21 +70,21 @@
     },
     {
       "month": "2026-08",
-      "count": 125
+      "count": 133
     }
   ],
   "topTags": [
     {
       "tag": "AI",
-      "count": 394
+      "count": 402
     },
     {
       "tag": "能源",
-      "count": 334
+      "count": 337
     },
     {
       "tag": "算力",
-      "count": 279
+      "count": 283
     },
     {
       "tag": "新能源",
@@ -92,11 +92,11 @@
     },
     {
       "tag": "芯片",
-      "count": 239
+      "count": 242
     },
     {
       "tag": "半导体",
-      "count": 188
+      "count": 189
     },
     {
       "tag": "人工智能",
@@ -104,19 +104,19 @@
     },
     {
       "tag": "供应链",
-      "count": 161
+      "count": 165
     },
     {
       "tag": "贸易",
-      "count": 150
+      "count": 151
     },
     {
       "tag": "机器人",
-      "count": 141
+      "count": 143
     },
     {
       "tag": "中美",
-      "count": 133
+      "count": 135
     },
     {
       "tag": "地缘政治",
@@ -124,11 +124,11 @@
     },
     {
       "tag": "基本面",
-      "count": 127
+      "count": 128
     },
     {
       "tag": "储能",
-      "count": 126
+      "count": 128
     },
     {
       "tag": "黄金",
@@ -144,19 +144,19 @@
     },
     {
       "tag": "人形机器人",
-      "count": 100
-    },
-    {
-      "tag": "制造业",
-      "count": 91
+      "count": 102
     },
     {
       "tag": "具身智能",
-      "count": 91
+      "count": 93
+    },
+    {
+      "tag": "制造业",
+      "count": 92
     },
     {
       "tag": "英伟达",
-      "count": 90
+      "count": 91
     },
     {
       "tag": "卫星",
@@ -172,15 +172,15 @@
     },
     {
       "tag": "数字经济",
-      "count": 66
+      "count": 68
     },
     {
       "tag": "电网",
-      "count": 62
+      "count": 64
     },
     {
       "tag": "航运",
-      "count": 58
+      "count": 59
     },
     {
       "tag": "商业航天",
@@ -237,11 +237,11 @@
       "count": 15
     },
     {
-      "code": "600111",
-      "count": 13
+      "code": "688017",
+      "count": 14
     },
     {
-      "code": "688017",
+      "code": "600111",
       "count": 13
     },
     {
