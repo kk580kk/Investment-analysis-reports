@@ -1,24 +1,24 @@
 {
-  "totalReports": 586,
+  "totalReports": 593,
   "dateRange": {
     "earliest": "2025-03-17",
-    "latest": "2026-08-30"
+    "latest": "2026-08-31"
   },
   "categoryCounts": [
     {
       "category": "event",
       "label": "事件投资机会",
-      "count": 351
+      "count": 356
     },
     {
       "category": "trend",
       "label": "长期趋势路径",
-      "count": 88
+      "count": 89
     },
     {
       "category": "other",
       "label": "其他",
-      "count": 68
+      "count": 69
     },
     {
       "category": "comprehensive",
@@ -70,21 +70,21 @@
     },
     {
       "month": "2026-08",
-      "count": 133
+      "count": 140
     }
   ],
   "topTags": [
     {
       "tag": "AI",
-      "count": 402
+      "count": 409
     },
     {
       "tag": "能源",
-      "count": 337
+      "count": 339
     },
     {
       "tag": "算力",
-      "count": 283
+      "count": 286
     },
     {
       "tag": "新能源",
@@ -92,31 +92,31 @@
     },
     {
       "tag": "芯片",
-      "count": 242
+      "count": 243
     },
     {
       "tag": "半导体",
-      "count": 189
+      "count": 190
     },
     {
       "tag": "人工智能",
-      "count": 168
+      "count": 171
     },
     {
       "tag": "供应链",
-      "count": 165
+      "count": 166
     },
     {
       "tag": "贸易",
-      "count": 151
+      "count": 154
     },
     {
       "tag": "机器人",
-      "count": 143
+      "count": 144
     },
     {
       "tag": "中美",
-      "count": 135
+      "count": 136
     },
     {
       "tag": "地缘政治",
@@ -124,7 +124,7 @@
     },
     {
       "tag": "基本面",
-      "count": 128
+      "count": 129
     },
     {
       "tag": "储能",
@@ -148,7 +148,7 @@
     },
     {
       "tag": "具身智能",
-      "count": 93
+      "count": 94
     },
     {
       "tag": "制造业",
